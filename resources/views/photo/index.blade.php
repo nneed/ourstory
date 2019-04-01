@@ -2,8 +2,8 @@
 
 @section('content')
     <div class="container">
-        @foreach ($photos as $user)
-            <p>This is photo {{ $user->path}}</p>
+        @foreach ($photos as $photo)
+            <p>This is photo {{ $photo->path}}</p>
         @endforeach
     </div>
 @endsection
